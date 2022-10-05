@@ -4,7 +4,7 @@ const God = require('./gods');
 
 const Realm = sequelize.define('Realm', {
     name: {
-        type: DataTypes.CHAR(64)
+        type: DataTypes.STRING(64)
     },
     description: {
         type: DataTypes.TEXT
